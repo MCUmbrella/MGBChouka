@@ -1,0 +1,5 @@
+name: MGBChouka
+version: '${project.version}'
+main: vip.floatationdevice.mgbchouka.MGBChouka
+api-version: 1.13
+depend: [ MGBridge ]

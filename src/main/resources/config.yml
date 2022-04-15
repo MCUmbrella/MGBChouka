@@ -1,0 +1,96 @@
+cards:
+  c1:
+    name: "蔡徐坤"
+    description: "鸡你太美"
+    imageUrl: "https://s3-us-west-2.amazonaws.com/www.guilded.gg/ContentMedia/3ae3e7e09a411aa7a1a009697fd29f81-Full.webp?w=481&h=433"
+    rarity: "普通"
+  c2:
+    name: "一眼丁真"
+    description: "鉴定为：真"
+    imageUrl: "https://s3-us-west-2.amazonaws.com/www.guilded.gg/ContentMedia/094d224a1a9fc692ee1127864dd97273-Full.webp?w=565&h=802"
+    rarity: "普通"
+  c3:
+    name: "肖战"
+    description: ""
+    imageUrl: "https://s3-us-west-2.amazonaws.com/www.guilded.gg/ContentMedia/a1de70909ab25add607e299dd5ab93f5-Full.webp?w=667&h=1000"
+    rarity: "垃圾"
+  c4:
+    name: "义眼丁真"
+    description: "鉴定为：假"
+    imageUrl: "https://s3-us-west-2.amazonaws.com/www.guilded.gg/ContentMedia/52bdba9958768b25dbe4da89727bddc6-Full.webp?w=688&h=857"
+    rarity: "普通"
+  c5:
+    name: "黑猪"
+    description: "pigga"
+    imageUrl: "https://s3-us-west-2.amazonaws.com/www.guilded.gg/ContentMedia/073a3744964c0216a6f00d7203382654-Full.webp?w=400&h=400"
+    rarity: "普通"
+  c6:
+    name: "冰墩墩"
+    description: ""
+    imageUrl: "https://s3-us-west-2.amazonaws.com/www.guilded.gg/ContentMedia/c9ed8e686401e5153d05468f43f9407d-Full.webp?w=1194&h=1278"
+    rarity: "稀有"
+  c7:
+    name: "Linus Torvalds"
+    description: "So, NVIDIA, fuck you"
+    imageUrl: "https://s3-us-west-2.amazonaws.com/www.guilded.gg/ContentMedia/11298c7e90434dc53a268b4702c42fd1-Full.webp?w=1024&h=649"
+    rarity: "史诗"
+  c8:
+    name: "田所浩二"
+    description: "哼！哼！啊啊啊啊啊啊啊啊啊啊啊！"
+    imageUrl: "https://s3-us-west-2.amazonaws.com/www.guilded.gg/ContentMedia/6ab796fcc0beb521a1e28341ff478317-Full.webp?w=435&h=319"
+    rarity: "史诗"
+  c9:
+    name: "草"
+    description: "一种方块"
+    imageUrl: "https://s3-us-west-2.amazonaws.com/www.guilded.gg/ContentMedia/6d8e53cb41fe8353ae082e139f70e4dc-Full.webp?w=126&h=58"
+    rarity: "普通"
+  c10:
+    name: "陈睿"
+    description: "你所热爱的，就是你的生活"
+    imageUrl: "https://s3-us-west-2.amazonaws.com/www.guilded.gg/ContentMedia/67f3ecfddd921e1e4ae21c80dbfcbd35-Full.webp?w=100&h=98"
+    rarity: "垃圾"
+  c11:
+    name: "youzhi"
+    description: "😂"
+    imageUrl: "https://s3-us-west-2.amazonaws.com/www.guilded.gg/ContentMedia/ba2d727edb64586d48651e721debd846-Full.webp?w=640&h=640"
+    rarity: "传说"
+  c12:
+    name: "吴京"
+    description: "I'm 拆腻子！"
+    imageUrl: "https://s3-us-west-2.amazonaws.com/www.guilded.gg/ContentMedia/537fb527b952d69dcaac7e90d20faa5f-Full.webp?w=1080&h=1920"
+    rarity: "普通"
+  c13:
+    name: "Megamind"
+    description: "No bitches?"
+    imageUrl: "https://s3-us-west-2.amazonaws.com/www.guilded.gg/ContentMedia/cee2c9554de4068ceef2b4f928830449-Full.webp?w=750&h=627"
+    rarity: "稀有"
+  c14:
+    name: "Robert Downey Jr"
+    description: "Now I am a card."
+    imageUrl: "https://s3-us-west-2.amazonaws.com/www.guilded.gg/ContentMedia/6a99faf289c27fb025dedcdc01ae644f-Full.webp?w=800&h=450"
+    rarity: "稀有"
+  c15:
+    name: "Jerma"
+    description: "When the impostor is sus!😳"
+    imageUrl: "https://s3-us-west-2.amazonaws.com/www.guilded.gg/ContentMedia/1693bd37670b42be99d856c7c71856ed-Full.webp?w=250&h=210"
+    rarity: "稀有"
+  c16:
+    name: "疫严丁真"
+    description: "鉴定为：无码"
+    imageUrl: "https://s3-us-west-2.amazonaws.com/www.guilded.gg/ContentMedia/c3dc59b3c81787ed361ec83a99886028-Full.webp?w=629&h=760"
+    rarity: "普通"
+  c17:
+    name: "疫源丁真"
+    description: "鉴定为：有病"
+    imageUrl: "https://s3-us-west-2.amazonaws.com/www.guilded.gg/ContentMedia/58e00a433ed3ccb7238b945a6624f6e1-Full.webp?w=900&h=1200"
+    rarity: "普通"
+  c18:
+    name: "译言丁真"
+    description: "鉴定为：bug"
+    imageUrl: "https://s3-us-west-2.amazonaws.com/www.guilded.gg/ContentMedia/74d849c2473be8b29c888be3b3eca5ca-Full.webp?w=960&h=720"
+    rarity: "普通"
+  c19:
+    name: "王洪文"
+    description: "很酷，不聊天"
+    imageUrl: "https://s3-us-west-2.amazonaws.com/www.guilded.gg/ContentMedia/bb69bdd1880993ae942144140c7bccec-Full.webp?w=300&h=300"
+    rarity: "史诗"
