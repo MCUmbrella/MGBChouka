@@ -4,6 +4,8 @@ import org.bukkit.configuration.ConfigurationSection;
 import org.bukkit.configuration.file.YamlConfiguration;
 import org.bukkit.plugin.java.JavaPlugin;
 import vip.floatationdevice.guilded4j.object.ChatMessage;
+import vip.floatationdevice.guilded4j.object.Embed;
+import vip.floatationdevice.guilded4j.object.EmbedField;
 import vip.floatationdevice.mgbridge.GuildedCommandExecutor;
 
 import java.io.File;
@@ -72,18 +74,13 @@ public final class MGBChouka extends JavaPlugin implements GuildedCommandExecuto
         {
             getLogger().info("Guilded用户（ID：" + chatMessage.getCreatorId() + "）发送了抽卡命令");
             // 随机抽卡并且回复给Guilded用户
-            Card card = cards.get(new Random().nextInt(cards.size() - 1));
+            Card card = cards.get(new Random().nextInt(cards.size()));
             getLogger().info("抽到了" + card.getName());
-            instance.sendGuildedMsg(
-                    "`恭喜你获得：`\n" +
-                            "**====== " + card.getName() + " ======**\n" +
-                            "“" + card.getRarity() + "”角色\n" +
-                            (card.getDescription().equals("") ? "" : ("_“" + card.getDescription() + "”_")),
-                    chatMessage.getId()
-            );
-            // Guilded API目前不支持同时发送文字和图片，所以只能单独发送图片
-            if(card.getImageUrl() != null && !card.getImageUrl().equals(""))
-                instance.sendGuildedMsg("![](" + card.getImageUrl() + ")", chatMessage.getId());
+            Embed embed = new Embed().setTitle(card.getName())
+                    .setColor(card.getRarity().hashCode() % 0xFFFFFF)
+                    .setFields(new EmbedField[]{new EmbedField().setName("“" + card.getRarity() + "”角色").setValue(card.getDescription())})
+                    .setImageUrl(card.getImageUrl());
+            instance.sendGuildedEmbed(embed, chatMessage.getId(), null, null);
             return true;
         }
         else return false;
