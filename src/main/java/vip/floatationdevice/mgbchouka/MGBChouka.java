@@ -76,11 +76,10 @@ public final class MGBChouka extends JavaPlugin implements GuildedCommandExecuto
             // 随机抽卡并且回复给Guilded用户
             Card card = cards.get(new Random().nextInt(cards.size()));
             getLogger().info("抽到了" + card.getName());
-            Embed embed = new Embed().setTitle(card.getName())
-                    .setColor(card.getRarity().hashCode() % 0xFFFFFF)
-                    .setFields(new EmbedField[]{new EmbedField().setName("“" + card.getRarity() + "”角色").setValue(card.getDescription())})
-                    .setImageUrl(card.getImageUrl());
-            instance.sendGuildedEmbed(embed, chatMessage.getId(), null, null);
+            Embed embed;
+            instance.sendGuildedEmbed(new Embed().setTitle(card.getName()).setColor((int) (Math.pow(card.getRarity().hashCode(), 2) % 0xffffff))
+                            .setFields(new EmbedField[]{new EmbedField().setName("“" + card.getRarity() + "”角色").setValue(card.getDescription())}).setImageUrl(card.getImageUrl()),
+                    chatMessage.getId(), null, null);
             return true;
         }
         else return false;
