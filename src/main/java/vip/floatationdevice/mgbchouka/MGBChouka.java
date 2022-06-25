@@ -5,7 +5,7 @@ import org.bukkit.configuration.file.YamlConfiguration;
 import org.bukkit.plugin.java.JavaPlugin;
 import vip.floatationdevice.guilded4j.object.ChatMessage;
 import vip.floatationdevice.guilded4j.object.Embed;
-import vip.floatationdevice.guilded4j.object.EmbedField;
+import vip.floatationdevice.guilded4j.object.misc.EmbedField;
 import vip.floatationdevice.mgbridge.GuildedCommandExecutor;
 
 import java.io.File;
