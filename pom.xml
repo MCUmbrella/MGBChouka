@@ -6,7 +6,7 @@
 
     <groupId>vip.floatationdevice</groupId>
     <artifactId>mgbchouka</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0</version>
     <packaging>jar</packaging>
 
     <name>MGBridgeExt</name>
@@ -69,7 +69,7 @@
         <dependency>
             <groupId>vip.floatationdevice</groupId>
             <artifactId>mgbridge</artifactId>
-            <version>0.9.0</version>
+            <version>0.9.5</version>
             <scope>provided</scope>
         </dependency>
     </dependencies>
